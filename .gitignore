@@ -13,3 +13,11 @@ results
 
 npm-debug.log
 node_modules
+
+.Apple*
+.DS_Store
+
+*.map
+dist
+public
+config/env.json
