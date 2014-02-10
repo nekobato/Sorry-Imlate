@@ -1,9 +1,7 @@
 exports.http = (app) ->
 
-  Content = (app.get 'events').Content app
+  app.get '/', (req, res) ->
+    res.render 'index', title: "Sorry, I'm late"
 
-  app.get '/', Content.index
-
-
-#exports.websocket = (app, io) ->
-
+  app.get '/user/(:session)', (req, res) ->
+    res.render 'user'

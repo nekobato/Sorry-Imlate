@@ -1,6 +1,6 @@
 {
-  "name": "coah",
-  "version": "0.1.0",
+  "name": "imlate",
+  "version": "0.0.1",
   "scripts": {
     "prestart": "grunt build",
     "start": "grunt server",
